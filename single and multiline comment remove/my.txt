@@ -1,0 +1,23 @@
+//this is my code
+mamun mahmud
+/
+///
+////
+printf("//mam//un"); //this will be comment out
+printf("// 
+hi // hlw");//my name is mamun printf("//dd"); 
+accha shun comment shuru //eikhan theke
+ekhon taile // eikhane abar // eikhane
+//eita puratai comment
+checking multiline now /*starts multiline
+comment it wont show printf("*/ now everything showing sure."
+printf("/* this wont hurt \n"); even this */ will show
+but now everything gone /* whdoa
+hfskn
+hflan
+*/
+checking again
+
+normal multiline /* to erokomi hoi 
+file er khetre ki kono jhamela hoi kina */ ke 
+jane
