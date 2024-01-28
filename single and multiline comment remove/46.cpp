@@ -13,8 +13,6 @@ int main()
         int len = s.size(),newline=0;
         int slash =0;
         string ans ="";
-        if(s.size() >=2)
-        {
             for(int i =0; i<len; i++)
             {
                 if(s[i]=='"')
@@ -49,7 +47,6 @@ int main()
                     cout<<s[i];
                 }
             }
-        }
         if(newline || len == 0)
             cout<<endl;
     }
