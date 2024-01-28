@@ -5,7 +5,8 @@ int main()
 {
     string s;
     int f =0;
-    fstream read("my.txt",ios:: in);
+    fstream read("myy.txt",ios:: in);
+    ofstream out("output.cpp");
     int multiline =0;
     while (getline (read, s))
     {
@@ -21,6 +22,7 @@ int main()
                         f=0;
                     else
                         f=1;
+                    out.put(s[i]);
                     continue;
                 }
                 if(s[i] == '/' && i+1<len && s[i+1]=='/' && f== 0 )
@@ -44,15 +46,14 @@ int main()
                 if(slash != 2)
                 {
                     newline=1;
-                    cout<<s[i];
+                    out.put(s[i]);
                 }
             }
         if(newline || len == 0)
-            cout<<endl;
+            out.put('\n');
     }
     read.close();
-
-
-
+    out.close();
+cout<<"Successfull:: Check the output file\n";
 
 }
