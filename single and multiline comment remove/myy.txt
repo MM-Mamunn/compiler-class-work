@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+
+//using namespace std;
+using namespace std; ///std = standard
+int main()
+{
+    //declaring variable
+    string s;
+    cin>>s;
+    cout<<"//my name is "<<s<<" /* */"<<endl;//output name
+    /*this contains multiple line and
+    single line
+    comment*/
+    
+}
