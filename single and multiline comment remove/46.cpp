@@ -4,14 +4,16 @@ int main()
 
 {
     string s;
-    int f =0;
     fstream read("myy.txt",ios:: in);
-    ofstream out("output.cpp");
+    fstream outt("output.tct",ios::out);
+    outt.close();
+
+    ofstream out("output.txt");
     int multiline =0;
     while (getline (read, s))
     {
         // Output the text from the file
-        int len = s.size(),newline=0;
+        int len = s.size(),newline=0,f=0;
         int slash =0;
         string ans ="";
             for(int i =0; i<len; i++)
@@ -55,5 +57,4 @@ int main()
     read.close();
     out.close();
 cout<<"Successfull:: Check the output file\n";
-
 }
