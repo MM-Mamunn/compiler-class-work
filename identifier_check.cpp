@@ -18,7 +18,7 @@ bool is_key(string s)
         "signed", "sizeof", "static", "static_assert", "static_cast", "struct",
         "switch", "template", "this", "thread_local", "throw", "true", "try",
         "typedef", "typeid", "typename", "union", "unsigned", "using", "virtual",
-        "void", "volatile", "wchar_t", "while", "xor", "xor_eq", "main", "std" , "namespace", "using"
+        "void", "volatile", "wchar_t", "while", "xor", "xor_eq",
     };
     for(auto a : cppKeywords)
         if(a == s)
@@ -29,7 +29,7 @@ bool is_key(string s)
 int main()
 {
 
-    string s="a";
+    string s="wdf a";
     bool f =true;
     if(s[0] != '_' && !isalpha(s[0]) )
         f=false;
@@ -43,8 +43,9 @@ int main()
         }
 
     if(f)
-        cout<<"Id\n";
+        cout<<s<<" is a Id\n";
     else
-        cout<<"No ID\n";
+      cout<<s<<" is a not Id\n";
+
     return 0;
 }
