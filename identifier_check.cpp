@@ -18,7 +18,7 @@ bool is_key(string s)
         "signed", "sizeof", "static", "static_assert", "static_cast", "struct",
         "switch", "template", "this", "thread_local", "throw", "true", "try",
         "typedef", "typeid", "typename", "union", "unsigned", "using", "virtual",
-        "void", "volatile", "wchar_t", "while", "xor", "xor_eq"
+        "void", "volatile", "wchar_t", "while", "xor", "xor_eq", "main", "std" , "namespace", "using"
     };
     for(auto a : cppKeywords)
         if(a == s)
